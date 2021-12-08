@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Product Form</title>
+</head>
+<body>
+    <h1>Pre-Order <Form></Form></h1>
+
+    <nav>
+        <h3>Example Products</h3>
+        <ul>
+            <li> 
+                <a href="./03-lists.html">Example 1</a>
+            </li>
+            <li>
+                <a href="./05-images.html">Example 2</a>
+            </li>
+            <li>
+                <a href="./06-tables.html">Example 3</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1>Product Ad</h1>
+    <p>More Product Details!</p>
+    <iframe width="400" height="200" src="https://www.youtube.com/embed/yeC7hI7S7es" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <h2>Please fill out all the information below.</h2>
+    <p>Our items are made from 100% recycled materials and are handcrafted by specialists. Below is the information that is needed for us to deliver our product to you.</p>
+    <div style="border: solid 2px black; padding: .5rem;">
+        <form>
+            <fieldset>
+                <legend> Basic Customer Information</legend>
+                <p>
+                    <label>First Name: <input name="name /"></label>
+                </p>
+                <label>Last Name: <input name="name /"></label>
+                </p>
+                <p>
+                    <label>Telephone Number: <input type="tel" name="tel" /></label>
+                </p>
+                <p>
+                    <label>Email Address: <input type="email" name="email" /></label>
+                </p><label>Home Address: <input type="home" name="home" /></label>
+            </p>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Package Information</legend>
+                <p>
+                    <input type="radio" name="size" id="size0" value="size0" />
+                    <label for="size0">Regular</label>
+                </p>
+                <p>
+                    <input type="radio" name="size" id="size1" value="size1" />
+                    <label for="size1">Deluxe</label>
+                </p>
+                <p>
+                    <input type="radio" name="size" id="size2" value="size2" />
+                    <label for="size2">Limited Edition</label>
+                </p>
+                <p>
+                    <input type="radio" name="size" id="size3" value="size3" />
+                    <label for="size3">Single Item</label>
+                </p>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Add-Ons</legend>
+                <p>
+                    <input type="checkbox" name="addons" id="cleaning" value="cleaning" />
+                    <label for="cleaning">Cleaning Items</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="addons" id="repair" value="repair" />
+                    <label for="repair">Repair Kit</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="addons" id="charms" value="charms" />
+                    <label for="charms">Charms</label>
+                </p>
+                <p>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Delivery Instructions</legend>
+                <p>
+                    <label for="time">Preferred Delivery Time:</label>
+                    <input id="time" name="time" type="time" min="11:00" max="21:00" step="900">
+                </p>
+                <p>
+                    Delivery Instructions:
+                    <textarea name="instructions"></textarea>
+                </p>
+                <p>
+                    <button type="submit">Submit Order</button>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
